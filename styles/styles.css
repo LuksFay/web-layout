@@ -3,9 +3,26 @@
     margin: 0;
     padding: 0;
 }
+/* estilos header */
+/* estilos header */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: #596672;
+    font-weight: 400;
+    line-height: 30px;
+}
+h2{
+    font-size: 45px;
+    font-weight: 400;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .container{
     max-width: 1130px;
-    display: flex;
     margin: auto;
 }
 .nav-superior{
@@ -26,17 +43,19 @@
     height: 90px;
     justify-content: flex-end;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    margin-left: auto;
 }
 .contact div{
     margin-left: 15px;
     justify-content: center;
     align-items: center;
 }
+a{
+    text-decoration: none;
+}
 .contact a{
     margin-left: 10px;
-    text-decoration: none;
     color: #a39694;
 }
 .contact-button a{
@@ -68,12 +87,171 @@ hr{
     max-width: 100%;
 }
 .nav-inferior{
-    justify-content: space-between;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 500;
+    
 }
 .nav-inferior ul{
     display: flex;
 }
 .nav-inferior li{
     list-style: none;
-    margin-left:50px;
+    margin-right:50px;
+}
+.nav a{
+    color: #596672;
+    transition: 0.4s;
+}
+.nav a:hover{
+    color: #a39694;
+    transition: 0.4s;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff3414;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    transition: 0.4s;
+    margin-left: auto;
+    justify-self: end;
+
+}
+.search:hover{
+    justify-content: end;
+    width: 300px;
+    transition: 0.4s;
+    padding-right: 10px;
+}
+/* estilos banner */
+/* estilos banner */
+#banner{
+    position: relative; 
+   height: 700px;
+   background: url(recursos/banner.png);
+}
+.banner-filter{
+    /* background: url(recursos/banner.png); */
+    /* filter: brightness(60%); */
+    height: 100%;
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.banner{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 700px;
+    color: #fff;
+}
+.banner h1{
+    margin: 40px 0px;
+    font-size: 60px;
+    font-weight: 600;
+}
+.banner h3{
+    font-weight: 400;
+}
+.banner-button a{
+    border: 1px #ff3414;
+    background-color: #ff3414;
+    color: #fff;
+    border-style: solid;
+    padding: 15px 30px;
+    transition: 0.4s;
+}
+.banner-button a:hover{
+    border: 1px #fff;
+    background-color: #fff;
+    color: #ff3414;
+    transition: 0.4s;
+}
+
+/* estilos servicios */
+/* estilos servicios */
+
+#skill{
+    display: flex;
+    height: 460px;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+    font-weight: 300;
+}
+.skill{
+    width: 270px;
+}
+
+
+#services{
+    height: 700px;
+    background-color: #f5fbff;
+    color: #001d38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.services{
+    text-align: center;
+}
+.service-dad{
+    display: flex;
+    margin-top: 60px;
+    text-align: left;
+}
+.service{
+    margin-right: 22px;
+}
+
+/* estilos de 2do banner */
+/* estilos de 2do banner */
+
+#phone-banner{
+    height: 400px;
+    position: relative;
+    background: url(recursos/contact_bg.png);
+    display: flex;
+    
+    align-items: center;
+}
+.phone-banner{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+/* POSICIONAR ESTE BANNER PARA QUE QUEDE ALINEADO*/
+.phone-banner p{
+    color: #fff;
+    margin-top: 20px;
+
+}
+.phone-div{
+    background-color: #ff3414;
+    border-radius: 30px;
+} 
+.phone-banner-filter{
+    height: 100%;
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color: rgba(32, 67, 97, 0.736);
 }
