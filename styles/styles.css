@@ -120,7 +120,7 @@ hr{
     border-radius: 50px;
     transition: 0.4s;
     margin-left: auto;
-    justify-self: end;
+    
 
 }
 .search:hover{
@@ -224,7 +224,6 @@ hr{
     position: relative;
     background: url(recursos/contact_bg.png);
     display: flex;
-    
     align-items: center;
 }
 .phone-banner{
@@ -237,7 +236,6 @@ hr{
     justify-content: space-between;
 }   
 
-/* POSICIONAR ESTE BANNER PARA QUE QUEDE ALINEADO*/
 .phone-banner p{
     color: #fff;
     margin-top: 20px;
@@ -246,7 +244,11 @@ hr{
 .phone-div{
     background-color: #ff3414;
     border-radius: 30px;
-} 
+    width: 290px;
+    height: 70px;
+    text-align: center;
+    font-size: 25px;
+}
 .phone-banner-filter{
     height: 100%;
     position: absolute;
@@ -254,4 +256,120 @@ hr{
     bottom:0;
     width: 100%;
     background-color: rgba(32, 67, 97, 0.736);
+}
+
+/* estilos del about us */
+/* estilos del about us */
+
+.about{
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+/* VER IMAGEN
+VER IMAGEN
+VER IMAGEN */
+
+.about-img{
+    background: url(recursos/about.png);
+    width: 445px;
+    height: 490px;
+    box-shadow: 20px 20px 0px 5px #FF3414;
+    
+}
+/* VER IMAGEN
+VER IMAGEN
+VER IMAGEN */
+.about-content{
+    width: 675px; 
+    margin-left: 70px;
+}
+.about-content h2{
+
+}
+.about-content p{
+    margin-top: 30px;
+    font-weight: 300;
+}
+.about-content ul{
+    margin-top: 30px;
+} 
+.about-content ul li{
+    margin-top: 15px;
+    list-style: none;
+    color:#596672
+}
+.about-content ul li i{
+    margin-right: 10px;
+}
+.about-button{
+    margin-top: 60px;  
+}
+.about-button a{
+    padding: 15px 50px;
+}
+.far{
+    font-weight:100;
+}
+.fa-check-circle{
+    color: #ff3414;
+}
+
+/* estilos del contador */
+/* estilos del contador */
+.counter{
+    background: url(recursos/0ffcan.png);
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 85px;
+}
+.counter-content h2{
+    color: #ff3414;
+}
+/* estilos del contador */
+/* estilos del contador */
+
+#comments{
+    background: url(recursos/testmonial0.png);
+    height: 700px;
+}
+.comments-dad{
+    display: flex; 
+}
+.comments{
+    width: 635px;
+    height: 455px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.comments p{
+    margin: 40px 0px;
+    font-size: 19px;
+    padding: 0px 70px;
+    color: #001d38;
+}
+.circles{
+    width: 70px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.inner-circle{
+    width: 15px;
+    height: 15px;
+    background-color: #ffd6d0;
+    border-radius: 50%;
+}
+.middle-circle{
+    background-color: #ff3414;
 }
