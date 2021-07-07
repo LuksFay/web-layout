@@ -22,7 +22,7 @@ h3{
     margin-bottom: 10px;
 }
 .container{
-    max-width: 1130px;
+    max-width: 1110px;
     margin: auto;
 }
 .nav-superior{
@@ -255,7 +255,7 @@ hr{
     left:0;
     bottom:0;
     width: 100%;
-    background-color: rgba(32, 67, 97, 0.736);
+    background-color: rgba(17, 47, 73, 0.736);
 }
 
 /* estilos del about us */
@@ -267,9 +267,6 @@ hr{
     justify-content: center;
     align-items: center;
 }
-/* VER IMAGEN
-VER IMAGEN
-VER IMAGEN */
 
 .about-img{
     background: url(recursos/about.png);
@@ -278,16 +275,12 @@ VER IMAGEN */
     box-shadow: 20px 20px 0px 5px #FF3414;
     
 }
-/* VER IMAGEN
-VER IMAGEN
-VER IMAGEN */
+
 .about-content{
     width: 675px; 
     margin-left: 70px;
 }
-.about-content h2{
 
-}
 .about-content p{
     margin-top: 30px;
     font-weight: 300;
@@ -331,18 +324,19 @@ VER IMAGEN */
 .counter-content h2{
     color: #ff3414;
 }
-/* estilos del contador */
-/* estilos del contador */
+/* estilos de los comentarios */
+/* estilos de los comentarios */
 
 #comments{
     background: url(recursos/testmonial0.png);
     height: 700px;
+    display: flex;     
 }
-.comments-dad{
-    display: flex; 
+.comments-dad{ 
+    width: 100%;
 }
 .comments{
-    width: 635px;
+    max-width: 635px;
     height: 455px;
     background-color: #fff;
     display: flex;
@@ -352,17 +346,25 @@ VER IMAGEN */
     align-items: center;
     border-radius: 10px;
 }
-.comments p{
+.comments-comment{
     margin: 40px 0px;
     font-size: 19px;
     padding: 0px 70px;
     color: #001d38;
+}
+.comments-name{
+    font-size: 15px;
+    color: #001d38;
+}
+.comments-charge{
+    font-size: 12px
 }
 .circles{
     width: 70px;
     height: 20px;
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 }
 .inner-circle{
     width: 15px;
@@ -372,4 +374,154 @@ VER IMAGEN */
 }
 .middle-circle{
     background-color: #ff3414;
+}
+
+/* estilos del form */
+/* estilos del form */
+
+#form{
+    background: url(recursos/Estimate_bg.png);
+    height: 610px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.form-dad{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    
+}
+.form-dad p{
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 30px;
+    max-width: 340px;
+}
+.form-text{
+    max-width: 375px;
+    align-self: start;
+    
+}
+.form-text h2{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.phone-form{
+    background-color: #ff3414;
+    border-radius: 30px;
+    width: 220px;
+    height: 45px;
+    text-align: center;
+    font-size: 18px;
+    align-items: center;
+}
+.phone-form p{
+    line-height: 45px;
+}
+.form{
+    width: 100%;
+    max-width: 732px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.form-input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.div1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.div2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.form-input input{
+    width: 100%;
+    max-width: 348px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #b2b9bf;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+    margin-bottom: 10px;
+}
+.margin-left{
+    margin-left: 30px
+}
+.form-textarea{
+    width: 100%;
+}
+.form-textarea textarea{
+    max-height: 100px;
+    width: calc(100% - 10px);
+    border: 1px solid #b2b9bf;;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+textarea:focus{
+    outline: none;
+}
+.form-button{
+    width: 100%;
+    border: 1px #ff3414;
+    color: #ff3414;
+    border-style: solid;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.4s;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: 0.4s;
+}
+.form-button:hover{
+    color:#fff;
+    background-color: #ff3414;
+    transition: 0.4s;
+}
+
+/* estilos location */
+/* estilos location */
+
+#location{
+    height: 310px;
+    background-color: #f5fbff;
+    display: flex;
+}
+.location{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.location-location{
+    display: flex;
+}
+.redes{
+    margin-top: 30px;
+}
+.fab{
+    margin-right: 15px;
+
 }
