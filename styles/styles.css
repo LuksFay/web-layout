@@ -677,8 +677,12 @@ span{
 
     }
     .about-content{
-        align-self: self-start;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
         margin-left: 0;
+        text-align: center;
+        align-items: center;
     }
     .about-content h2{
         margin-top: 15px;
@@ -692,7 +696,7 @@ span{
         padding-left: 16px;
     }
     .contact-button{
-        margin-left: 105px;
+        margin-left: 15px;
     }
     .counter{
         display: flex;
@@ -707,6 +711,12 @@ span{
     .comments{
         height: 585px;
     }
+    #form{
+        height: 100%;
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
     .form-dad{
         display: flex;
         flex-direction: column;
@@ -714,16 +724,63 @@ span{
     .form{
         display: flex;
         flex-direction: column;
+        margin-left: -20px;
+        margin-top: 30px;
     }
-    .location{
+    .phone-form{
+        margin-left: 60px;
+    }
+    .form-input{
         display: flex;
         flex-direction: column;
+    }
+    .form-textarea{
+        width: 96%;
+        margin-bottom: 30px;
+    }
+    #location{
+        height: 100%;
+    }
+    .location{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0px;
     }
     .footer-col{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
-
+    .location-1{
+        text-align: center;
+    }
+    .redes{
+        width: 100%;
+    }
+    .location-location{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .location-2{
+        margin-top: 15px;
+    }
+    .footer{
+        text-align: center;
+    }
+    
+    .footer-subscribe{
+        width: 302px;
+        margin-left: -87px;
+    }
+    
+    .copy{
+        text-align: center;
+        padding: 0 15px;
+    }
 
 
 
